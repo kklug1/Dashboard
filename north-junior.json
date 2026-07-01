@@ -1,0 +1,118 @@
+{
+  "schoolName": "North Junior High",
+  "theme": {
+    "primaryColor": "#f88379",
+    "secondaryColor": "#000000",
+    "headerText": "#ffffff",
+    "bgWhite": "#ffffff",
+    "borderColor": "#ffffff",
+    "liveAccent": "#62d8a3"
+  },
+  "schedules": {
+    "Regular": {
+      "label": "REGULAR",
+      "lunchVariants": true,
+      "lunchStart": "10:35",
+      "lunchEnd": "13:26",
+      "A": [
+        { "name": "Period 1",              "start": "08:35", "end": "09:35" },
+        { "name": "Period 2",              "start": "09:38", "end": "10:32" },
+        { "name": "Period 3 (Lunch A)",    "start": "10:35", "end": "11:05" },
+        { "name": "Period 3 (Tiger Time)", "start": "11:05", "end": "11:30" },
+        { "name": "Period 4 (Lunch C)",    "start": "11:33", "end": "12:03" },
+        { "name": "Period 4 (Tiger Time)", "start": "12:03", "end": "12:28" },
+        { "name": "Period 5 (Lunch E)",    "start": "12:31", "end": "13:01" },
+        { "name": "Period 5 (Tiger Time)", "start": "13:01", "end": "13:26" },
+        { "name": "Period 6",              "start": "13:29", "end": "14:23" },
+        { "name": "Period 7",              "start": "14:26", "end": "15:20" }
+      ],
+      "B": [
+        { "name": "Period 1",              "start": "08:35", "end": "09:35" },
+        { "name": "Period 2",              "start": "09:38", "end": "10:32" },
+        { "name": "Period 3 (Tiger Time)", "start": "10:35", "end": "11:00" },
+        { "name": "Period 3 (Lunch B)",    "start": "11:00", "end": "11:30" },
+        { "name": "Period 4 (Tiger Time)", "start": "11:33", "end": "11:58" },
+        { "name": "Period 4 (Lunch D)",    "start": "11:58", "end": "12:28" },
+        { "name": "Period 5 (Lunch F)",    "start": "12:31", "end": "12:54" },
+        { "name": "Period 5 (Tiger Time)", "start": "12:56", "end": "13:26" },
+        { "name": "Period 6",              "start": "13:29", "end": "14:23" },
+        { "name": "Period 7",              "start": "14:26", "end": "15:20" }
+      ],
+      "Full": [
+        { "name": "Period 1", "start": "08:35", "end": "09:35" },
+        { "name": "Period 2", "start": "09:38", "end": "10:32" },
+        { "name": "Period 3", "start": "10:35", "end": "11:30" },
+        { "name": "Period 4", "start": "11:33", "end": "12:28" },
+        { "name": "Period 5", "start": "12:31", "end": "13:26" },
+        { "name": "Period 6", "start": "13:29", "end": "14:23" },
+        { "name": "Period 7", "start": "14:26", "end": "15:20" }
+      ],
+      "tableRows": [
+        { "name": "Period 1", "time": "8:35 – 9:35" },
+        { "name": "Period 2", "time": "9:38 – 10:32" },
+        { "name": "Period 3", "time": "10:35 – 11:30", "lunchSplit": [
+          { "label": "Lunch A → Tiger", "detail": "10:35–11:05 | 11:05–11:30" },
+          { "label": "Tiger → Lunch B", "detail": "10:35–11:00 | 11:00–11:30" }
+        ]},
+        { "name": "Period 4", "time": "11:33 – 12:28", "lunchSplit": [
+          { "label": "Lunch C → Tiger", "detail": "11:33–12:03 | 12:03–12:28" },
+          { "label": "Tiger → Lunch D", "detail": "11:33–11:58 | 11:58–12:28" }
+        ]},
+        { "name": "Period 5", "time": "12:31 – 1:26", "lunchSplit": [
+          { "label": "Lunch E → Tiger", "detail": "12:31–1:01 | 1:01–1:26" },
+          { "label": "Lunch F → Tiger", "detail": "12:31–12:54 | 12:56–1:26" }
+        ]},
+        { "name": "Period 6", "time": "1:29 – 2:23" },
+        { "name": "Period 7", "time": "2:26 – 3:20" }
+      ]
+    },
+    "Late": {
+      "label": "LATE START",
+      "lunchVariants": false,
+      "live": [
+        { "name": "Period 1", "start": "10:35", "end": "11:10" },
+        { "name": "Period 2", "start": "11:15", "end": "11:50" },
+        { "name": "Period 4", "start": "11:55", "end": "13:20" },
+        { "name": "Period 3", "start": "13:25", "end": "14:00" },
+        { "name": "Period 5", "start": "14:05", "end": "14:40" },
+        { "name": "Period 6", "start": "14:45", "end": "15:20" }
+      ],
+      "tableRows": [
+        { "name": "Period 1", "time": "10:35 – 11:10" },
+        { "name": "Period 2", "time": "11:15 – 11:50" },
+        { "name": "Period 4", "time": "11:55 – 1:20", "lunchSplit": [
+          { "label": "Lunch A", "detail": "11:50–12:20" },
+          { "label": "Lunch B", "detail": "12:20–12:50" },
+          { "label": "Lunch C", "detail": "12:50–1:20" }
+        ]},
+        { "name": "Period 3", "time": "1:25 – 2:00" },
+        { "name": "Period 5", "time": "2:05 – 2:40" },
+        { "name": "Period 6", "time": "2:45 – 3:20" }
+      ]
+    },
+    "Early": {
+      "label": "EARLY RELEASE",
+      "lunchVariants": false,
+      "live": [
+        { "name": "Period 1", "start": "08:35", "end": "09:10" },
+        { "name": "Period 2", "start": "09:15", "end": "09:50" },
+        { "name": "Period 3", "start": "09:55", "end": "10:30" },
+        { "name": "Period 5", "start": "10:35", "end": "11:10" },
+        { "name": "Period 4", "start": "11:15", "end": "12:40" },
+        { "name": "Period 6", "start": "12:45", "end": "13:20" }
+      ],
+      "tableRows": [
+        { "name": "Period 1", "time": "8:35 – 9:10" },
+        { "name": "Period 2", "time": "9:15 – 9:50" },
+        { "name": "Period 3", "time": "9:55 – 10:30" },
+        { "name": "Period 5", "time": "10:35 – 11:10" },
+        { "name": "Period 4", "time": "11:15 – 12:40", "lunchSplit": [
+          { "label": "Lunch A", "detail": "11:10–11:40" },
+          { "label": "Lunch B", "detail": "11:40–12:10" },
+          { "label": "Lunch C", "detail": "12:10–12:40" }
+        ]},
+        { "name": "Period 6", "time": "12:45 – 1:20" }
+      ]
+    }
+  }
+}
