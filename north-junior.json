@@ -1,0 +1,34 @@
+{
+  "schoolName": "North Junior High",
+  "theme": {
+    "primaryColor": "#ffc0cb",   // header background
+    "secondaryColor": "#000000", // accent underline / progress bar
+    "headerText": "#ffffff",
+    "bgWhite": "#ffffff",
+    "borderColor": "#ffffff",
+    "liveAccent": "#62d8a3"      // "live" dot color
+  },
+  "schedules": {
+    "Regular": {
+      "label": "REGULAR",
+      "lunchVariants": true,        // true = A/B lunch toggle, false = single "live" array
+      "lunchStart": "10:35",        // only needed if lunchVariants is true
+      "lunchEnd": "13:26",
+      "A": [ { "name": "...", "start": "HH:MM", "end": "HH:MM" }, ... ],
+      "B": [ ... ],
+      "Full": [ ... ],
+      "tableRows": [
+        { "name": "Period 1", "time": "8:35 – 9:35" },
+        { "name": "Period 3", "time": "10:35 – 11:30", "lunchSplit": [
+          { "label": "Lunch A → Tiger", "detail": "10:35–11:05 | 11:05–11:30" }
+        ]}
+      ]
+    },
+    "Late": {
+      "label": "LATE START",
+      "lunchVariants": false,
+      "live": [ { "name": "...", "start": "HH:MM", "end": "HH:MM" }, ... ],
+      "tableRows": [ ... ]
+    }
+  }
+}
