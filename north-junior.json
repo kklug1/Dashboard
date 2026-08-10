@@ -8,7 +8,7 @@
     "borderColor": "#ffffff",
     "liveAccent": "#62d8a3"
   },
-  "schedules": {
+  "bell schedules": {
     "Regular": {
       "label": "REGULAR",
       "lunchVariants": true,
