@@ -1,7 +1,7 @@
 {
   "schoolName": "View Full Bell",
   "theme": {
-    "primaryColor": "#02195d",
+    "primaryColor": "#0b6623",
     "secondaryColor": "c42228",
     "headerText": "#ffffff",
     "bgWhite": "#ffffff",
@@ -18,23 +18,23 @@
         { "name": "Period 1",              "start": "08:35", "end": "09:35" },
         { "name": "Period 2",              "start": "09:38", "end": "10:32" },
         { "name": "Period 3 (Lunch A)",    "start": "10:35", "end": "11:05" },
-        { "name": "Period 3 (Eagle Time)", "start": "11:05", "end": "11:30" },
+        { "name": "Period 3 (Colt Time)", "start": "11:05", "end": "11:30" },
         { "name": "Period 4 (Lunch C)",    "start": "11:33", "end": "12:03" },
-        { "name": "Period 4 (Eagle Time)", "start": "12:03", "end": "12:28" },
+        { "name": "Period 4 (Colt Time)", "start": "12:03", "end": "12:28" },
         { "name": "Period 5 (Lunch E)",    "start": "12:31", "end": "13:01" },
-        { "name": "Period 5 (Eagle Time)", "start": "13:01", "end": "13:26" },
+        { "name": "Period 5 (Colt Time)", "start": "13:01", "end": "13:26" },
         { "name": "Period 6",              "start": "13:29", "end": "14:23" },
         { "name": "Period 7",              "start": "14:26", "end": "15:20" }
       ],
       "B": [
         { "name": "Period 1",              "start": "08:35", "end": "09:35" },
         { "name": "Period 2",              "start": "09:38", "end": "10:32" },
-        { "name": "Period 3 (Eagle Time)", "start": "10:35", "end": "11:00" },
+        { "name": "Period 3 (Colt Time)", "start": "10:35", "end": "11:00" },
         { "name": "Period 3 (Lunch B)",    "start": "11:00", "end": "11:30" },
-        { "name": "Period 4 (Eagle Time)", "start": "11:33", "end": "11:58" },
+        { "name": "Period 4 (Colt Time)", "start": "11:33", "end": "11:58" },
         { "name": "Period 4 (Lunch D)",    "start": "11:58", "end": "12:28" },
         { "name": "Period 5 (Lunch F)",    "start": "12:31", "end": "12:54" },
-        { "name": "Period 5 (Eagle Time)", "start": "12:56", "end": "13:26" },
+        { "name": "Period 5 (Colt Time)", "start": "12:56", "end": "13:26" },
         { "name": "Period 6",              "start": "13:29", "end": "14:23" },
         { "name": "Period 7",              "start": "14:26", "end": "15:20" }
       ],
@@ -51,16 +51,16 @@
         { "name": "Period 1", "time": "8:35 – 9:35" },
         { "name": "Period 2", "time": "9:38 – 10:32" },
         { "name": "Period 3", "time": "10:35 – 11:30", "lunchSplit": [
-          { "label": "Lunch A → Eagle", "detail": "10:35–11:05 | 11:05–11:30" },
-          { "label": "Eagle → Lunch B", "detail": "10:35–11:00 | 11:00–11:30" }
+          { "label": "Lunch A → Colt", "detail": "10:35–11:05 | 11:05–11:30" },
+          { "label": "Colt → Lunch B", "detail": "10:35–11:00 | 11:00–11:30" }
         ]},
         { "name": "Period 4", "time": "11:33 – 12:28", "lunchSplit": [
-          { "label": "Lunch C → Eagle", "detail": "11:33–12:03 | 12:03–12:28" },
-          { "label": "Eagle → Lunch D", "detail": "11:33–11:58 | 11:58–12:28" }
+          { "label": "Lunch C → Colt", "detail": "11:33–12:03 | 12:03–12:28" },
+          { "label": "Colt → Lunch D", "detail": "11:33–11:58 | 11:58–12:28" }
         ]},
         { "name": "Period 5", "time": "12:31 – 1:26", "lunchSplit": [
-          { "label": "Lunch E → Eagle", "detail": "12:31–1:01 | 1:01–1:26" },
-          { "label": "Lunch F → Eagle", "detail": "12:31–12:54 | 12:56–1:26" }
+          { "label": "Lunch E → Colt", "detail": "12:31–1:01 | 1:01–1:26" },
+          { "label": "Lunch F → Colt", "detail": "12:31–12:54 | 12:56–1:26" }
         ]},
         { "name": "Period 6", "time": "1:29 – 2:23" },
         { "name": "Period 7", "time": "2:26 – 3:20" }
