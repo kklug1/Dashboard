@@ -1,5 +1,5 @@
 {
-  "schoolName": "North Junior High",
+  "schoolName": "North Junior High Bell",
   "theme": {
     "primaryColor": "#f88379",
     "secondaryColor": "#000000",
@@ -8,7 +8,7 @@
     "borderColor": "#ffffff",
     "liveAccent": "#62d8a3"
   },
-  "bell schedules": {
+  "schedules": {
     "Regular": {
       "label": "REGULAR",
       "lunchVariants": true,
