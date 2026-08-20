@@ -1,0 +1,66 @@
+{
+  "High School": {
+    "color": "#069494",
+    "schedule": [
+      { "name": "Per 1", "start": "08:00", "end": "08:50" },
+      { "name": "Per 2", "start": "08:55", "end": "09:45" },
+      { "name": "Per 3", "start": "09:50", "end": "10:40" },
+      { "name": "Per 4/Lunch", "start": "10:45", "end": "12:05" },
+      { "name": "Per 5", "start": "12:10", "end": "13:00" },
+      { "name": "Per 6", "start": "13:05", "end": "13:55" },
+      { "name": "Per 7", "start": "14:00", "end": "14:50" }
+    ]
+  },
+  "Middle School": {
+    "color": "#8E44AD",
+    "schedule": [
+      { "name": "Advisory", "start": "08:15", "end": "08:40" },
+      { "name": "Block 1", "start": "08:45", "end": "10:00" },
+      { "name": "Block 2", "start": "10:05", "end": "11:20" },
+      { "name": "Lunch", "start": "11:20", "end": "12:00" },
+      { "name": "Block 3", "start": "12:05", "end": "13:20" },
+      { "name": "Block 4", "start": "13:25", "end": "14:40" }
+    ]
+  },
+  "Elementary North": {
+    "color": "#2F7D4F",
+    "schedule": [
+      { "name": "Morning Meeting", "start": "08:30", "end": "09:00" },
+      { "name": "Literacy Block", "start": "09:00", "end": "10:30" },
+      { "name": "Recess & Lunch", "start": "10:30", "end": "11:30" },
+      { "name": "Math Block", "start": "11:30", "end": "13:00" },
+      { "name": "Specials", "start": "13:00", "end": "14:00" },
+      { "name": "Dismissal Prep", "start": "14:00", "end": "14:30" }
+    ]
+  },
+  "Elementary South": {
+    "color": "#C12226",
+    "schedule": [
+      { "name": "Morning Meeting", "start": "08:35", "end": "09:05" },
+      { "name": "Math Block", "start": "09:05", "end": "10:35" },
+      { "name": "Recess & Lunch", "start": "10:35", "end": "11:35" },
+      { "name": "Literacy Block", "start": "11:35", "end": "13:05" },
+      { "name": "Specials", "start": "13:05", "end": "14:05" },
+      { "name": "Dismissal Prep", "start": "14:05", "end": "14:35" }
+    ]
+  },
+  "Early Childhood Center": {
+    "color": "#D35400",
+    "schedule": [
+      { "name": "Morning Session", "start": "08:15", "end": "11:00" },
+      { "name": "Midday Transition", "start": "11:00", "end": "12:15" },
+      { "name": "Afternoon Session", "start": "12:15", "end": "15:00" }
+    ]
+  },
+  "Alternative Academy": {
+    "color": "#1B3A7A",
+    "schedule": [
+      { "name": "Homeroom", "start": "08:30", "end": "08:50" },
+      { "name": "Session A", "start": "08:50", "end": "10:30" },
+      { "name": "Break", "start": "10:30", "end": "10:45" },
+      { "name": "Session B", "start": "10:45", "end": "12:25" },
+      { "name": "Lunch", "start": "12:25", "end": "13:00" },
+      { "name": "Work Lab", "start": "13:00", "end": "14:30" }
+    ]
+  }
+}
