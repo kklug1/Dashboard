@@ -1,5 +1,5 @@
 {
-  "High School": {
+  "Apollo": {
     "color": "#069494",
     "schedule": [
       { "name": "Per 1", "start": "08:00", "end": "08:50" },
@@ -11,7 +11,7 @@
       { "name": "Per 7", "start": "14:00", "end": "14:50" }
     ]
   },
-  "Middle School": {
+  "Tech": {
     "color": "#8E44AD",
     "schedule": [
       { "name": "Advisory", "start": "08:15", "end": "08:40" },
@@ -22,7 +22,7 @@
       { "name": "Block 4", "start": "13:25", "end": "14:40" }
     ]
   },
-  "Elementary North": {
+  "North": {
     "color": "#2F7D4F",
     "schedule": [
       { "name": "Morning Meeting", "start": "08:30", "end": "09:00" },
@@ -33,7 +33,7 @@
       { "name": "Dismissal Prep", "start": "14:00", "end": "14:30" }
     ]
   },
-  "Elementary South": {
+  "South": {
     "color": "#C12226",
     "schedule": [
       { "name": "Morning Meeting", "start": "08:35", "end": "09:05" },
@@ -44,7 +44,7 @@
       { "name": "Dismissal Prep", "start": "14:05", "end": "14:35" }
     ]
   },
-  "Early Childhood Center": {
+  "Kennedy": {
     "color": "#D35400",
     "schedule": [
       { "name": "Morning Session", "start": "08:15", "end": "11:00" },
@@ -52,7 +52,7 @@
       { "name": "Afternoon Session", "start": "12:15", "end": "15:00" }
     ]
   },
-  "Alternative Academy": {
+  "McKinley": {
     "color": "#1B3A7A",
     "schedule": [
       { "name": "Homeroom", "start": "08:30", "end": "08:50" },
